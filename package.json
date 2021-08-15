@@ -1,0 +1,30 @@
+{
+  "name": "learn-crud",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://ViacheslavSosnovskiy.github.io/learn-CRUD",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /learn-CRUD/",
+    "server": "json-server --watch db.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViacheslavSosnovskiy/learn-CRUD.git"
+  },
+  "keywords": [],
+  "author": "Viacheslav Sosnovskiy <viacheslav.sosnovskiy@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViacheslavSosnovskiy/learn-CRUD/issues"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  }
+}
