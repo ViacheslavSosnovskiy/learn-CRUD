@@ -17,4 +17,11 @@ addBook({
   author: 'Малькольн Гладуел',
   genres: ['бизнес', 'мотивация'],
   rating: 7.38,
-});
+})
+  .then(renderBook)
+  .catch(error => console.log(error));
+
+function renderBook(book) {
+  console.log('Пришел ответ от букенда можно рисовать!');
+  console.log(book);
+}
